@@ -10,7 +10,7 @@
 }
 
 .banner .wrapper {
-    display: flex;
+    display:flex;
     flex-direction: column;
     width: 700px;
     height: 100px;
