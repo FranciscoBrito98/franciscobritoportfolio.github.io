@@ -22,6 +22,7 @@
     border: 15px solid transparent;
     border-left: 28px solid white;
     transform: translateX(5px);
+    text-align: center;
 }
 
 .button-arrow.-left::before
