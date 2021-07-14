@@ -4,6 +4,7 @@
     flex-direction: column;
     align-items: center;
     position: relative;
+    padding: 10px;
 }
 
 .node-card::before
@@ -17,6 +18,7 @@
     border: 2.2px dashed #000;
     transform: rotate(90deg) translateX(-62%);
     bottom: 140px;
+    padding: 0px;
 }
 
 .node-card .title
@@ -35,5 +37,6 @@
     height: 130px;
     border: 5px solid #000;
 }
+
 
 
