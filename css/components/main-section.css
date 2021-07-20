@@ -1,19 +1,27 @@
-.main-action
-{
-    display: inline-flex;
+.main-section {
+    background-color: #3A4042;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    border-bottom: 10px solid #7C5E99;
     align-items: center;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 500;
-    text-decoration: none;
-    margin-right: 30px;
 }
 
-.main-action::before::before
-{
-    content: "";
-    background-color: #F25A70;
-    width: 10px;
-    height: 10px;
-    margin-right: 10px;
+.main-section .main-title {
+    margin-bottom: 4vw;
+}
+
+.main-section.-bgBlack {
+    background-color: #000;
+}
+
+.main-section.-bdFirst {
+    border-color: #F25A70;
+}
+
+.main-section.-bgSecond {
+    background-color: #7C5E99;
+}
+
+.main-section.-bdBlack {
+    border-color: #000;
 }

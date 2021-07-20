@@ -1,12 +1,10 @@
-form
-{
+form {
     background-color: #3A4042;
 }
 
-.main-label
-{
+.main-label {
     color: #FFF;
-    font-size: 30px;
+    font-size: 1.6vw;
     font-weight: 300;
-    line-height: 40px;
+    line-height: 2vw;
 }

@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="css/components/banner.css">
         <link rel="stylesheet" href="css/components/section.css">
         <link rel="stylesheet" href="css/index.css">
-        <link rel="stylesheet" href="css/components/button.css">
+        <link rel="stylesheet" href="css/components/main-button.css">   
         <link rel="stylesheet" href="css/components/main-title.css">
         <link rel="stylesheet" href="css/components/subtitle.css">
         <link rel="stylesheet" href="css/components/box.css">
@@ -30,6 +30,8 @@
         <link rel="stylesheet" href="css/components/main-footer.css">
         <link rel="stylesheet" href="css/components/main-label.css">
         <link rel="stylesheet" href="css/components/main-input.css">
+        <link rel="stylesheet" href="css/components/main-form.css"> 
+        <link rel="stylesheet" href="css/components/main-action.css">
 
     </head>
  
@@ -42,7 +44,7 @@
                 <a href="#projetos">Projetos</a>    
                 <a href="#sobre">Sobre</a>
                 <a href="#contatos">Contatos</a>
-                <a class = "button" href="" lang ="en"> Download CV</a>
+                <a class = "main-button" href="img/CV.pdf" download> Download CV</a>
             </nav>
         </header>
         
@@ -55,8 +57,8 @@
                         </div>  
 
                             <div class="navigation">
-                                <a class = "button" href="" lang ="en"> Download CV</a>
-                                <a class = "button" href=""> Contatos</a>
+                                <a class = "main-button" href="" lang ="en"> Download CV</a>
+                                <a class = "main-button" href=""> Contatos</a>
                             </div>
 
                             <!--v 2.0-->
@@ -134,7 +136,7 @@
         </div>
             </section>
 
-            <section class="section -bgBlack -bdFirst">
+            <section class="main-section -bgBlack -bdFirst">
                 <h2 class="main-title -second "id="projetos">Projetos</h2>
 
                 <div class="wrapper-card">
@@ -155,7 +157,7 @@
                     </a>
                 </div>
             </section>
-            <section class="main-section">
+            <section class="main-section -bgSecond -bdBlack">
                 <h2 class="main-title -second" id="sobre">Sobre</h2>
                                  
                 <section class="main-carousel">
@@ -214,23 +216,23 @@
                     </p>
             </section>
             
-            <form action="https://formsubmit.co/franciscoeight@hotmail.com" method="POST">
-                             
-                <label class="main-label" for="name">Nome</label>
-                <input class="main-input" type="text" name="Nome" required>
-
-                <label class="main-label"  for="email">Email</label>
-                <input class="main-input" type="email" name="Email" required>
-
-                <label class="main-label" for="message">Mensagem</label>
-                <textarea class="main-input -textarea" textarea type="message" name= "Message" required></textarea>
-
-                <input type="submit" aria-required="true">
-
+           <form class="main-form" action="https://formsubmit.co/franciscoeight@hotmail.com" method="POST" id="contatos">
+                <legend class="main-title -third">Contatos</legend>
+    
                 <input type="hidden" name="_captcha" value="false">
-
-                <input type="hidden" name="_next" value="https://franciscobrito98.github.io/franciscobritoportfolio.github.io/">
-
+    
+                <label class="main-label" for="name">Nome</label>
+                <input class="main-input" name="name" type="text" required>
+    
+                <label class="main-label" for="email">E-mail</label>
+                <input class="main-input" name="email" type="email" required>
+    
+                <input type="hidden" name="_next" value="https://franciscobrito98.github.io/franciscobritoportfolio.github.io">
+    
+                <label class="main-label" for="message">Mensagem</label>
+                <textarea class="main-input -textarea" name="message" required></textarea>
+    
+                <button class="main-button -full" type="submit">Enviar</button>
             </form>
 
             <footer class="main-footer">
